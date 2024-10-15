@@ -3,32 +3,23 @@
   margin: 0;
   /* background-color: #ffffff; */
   font-family: "Arial", sans-serif;
-  /* box-sizing: border-box; Added box-sizing for consistent padding/margin handling */
 }
 
 body {
-  /* background-color: #ffffff; Set the background color of the entire page to white */
-
-
-
+  /* background-color: #ffffff; */
   color: #333;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  /* Space items evenly within the navbar */
   align-items: center;
   padding: 20px 50px;
-  /* Increased padding for a more spacious look */
   background-color: #ffffff;
-  /* Ensure navbar background is white */
-
 }
 
 .navbar img {
   width: 100px;
-  /* Adjusted image size for balance */
   height: 100px;
 }
 
@@ -38,12 +29,10 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.2rem;
-  /* Slightly larger font for better readability */
 }
 
 .navbar ul li {
   margin-left: 30px;
-  /* Increased spacing between list items */
   display: inline-flex;
   align-items: center;
   font-weight: bold;
@@ -60,39 +49,32 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   padding: 10px 30px;
-  /* Adjusted padding for a more balanced button */
 }
 
 .navbar button:hover {
   transform: scale(1.05);
-  /* Slightly enlarge button on hover */
 }
 
 header {
 
   position: relative;
   padding: 5rem 2rem;
-  /* Increased padding for a more spacious header */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 3rem;
-  /* Increased gap between content and image */
   background-color: #ffffff;
 }
 
 .topic {
   margin-bottom: 1.5rem;
-  /* Increased margin for better spacing */
   font-size: 1rem;
   font-weight: 600;
 }
 
 header .content h1 {
   margin-bottom: 1.5rem;
-  /* Increased margin for spacing */
   font-size: 3.5rem;
-  /* Larger font size for impact */
   font-weight: 700;
   line-height: 4rem;
 }
@@ -100,15 +82,13 @@ header .content h1 {
 header .content p {
   margin-bottom: 2rem;
   font-size: 1.2rem;
-  /* Slightly larger font for readability */
 }
 
 header .devimage img {
   width: 600px;
   height: 600px;
   border-radius: 15px;
-  /* Added rounded corners for a softer look */
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); Added shadow to give the image depth */
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);*/
 }
 
 .btn {
@@ -117,17 +97,14 @@ header .devimage img {
   border: none;
   border-radius: 25px 0px 25px 25px;
   font-size: 24px;
-  /* Adjusted font size */
   font-weight: bolder;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   padding: 15px 30px;
-  /* Adjusted padding for balance */
 }
 
 .btn:hover {
   transform: scale(1.05);
-  /* Slightly enlarge button on hover */
 }
 
 section .header {
@@ -144,7 +121,6 @@ section .header {
   padding: 2rem;
   gap: 1rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* Smooth transition for scale and shadow */
 }
 
 .card span {
@@ -157,7 +133,6 @@ section .header {
   border-radius: 10px;
   text-align: center;
   transition: transform 0.3s ease;
-  /* Smooth transition for scale effect */
 }
 
 .card img {
@@ -167,7 +142,6 @@ section .header {
   object-fit: cover;
   margin-bottom: 1rem;
   transition: transform 0.3s ease;
-  /* Smooth transition for scale effect */
 }
 
 .card h4 {
@@ -181,18 +155,14 @@ section .header {
   color: #ffffff;
 }
 
-/* Hover effect specific to each card */
 .card span:hover {
   transform: scale(1.05);
-  /* Slightly enlarge card on hover */
 }
 
 .card span:hover img {
   transform: rotate(10deg);
-  /* Slightly rotate image on hover */
 }
 
-/* Optional: Add a subtle shadow on hover for depth */
 .card span:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -223,11 +193,8 @@ section .header {
   align-items: center;
   padding: 20px;
   gap: 30px;
-  /* Space between text and image */
   background-color: #E9F1F8;
-  /* Ensure this is applied */
   position: relative;
-  /* Required for overlay */
 }
 
 .headingone-content {
@@ -245,7 +212,6 @@ section .header {
   height: auto;
   display: block;
   border-radius: 10px;
-  /* Optional: for rounded corners */
 }
 
 
@@ -260,18 +226,14 @@ section .header {
   color: #ffffff;
   display: flex;
   align-items: center;
-  /* Center items vertically */
   justify-content: space-between;
-  /* Space between text and button */
   padding: 20px;
 
 }
 
 .want2know h1 {
   margin: 0;
-  /* Remove default margin */
   font-size: 54px;
-  /* Adjust as needed */
 }
 
 .want2know button {
@@ -284,12 +246,10 @@ section .header {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   padding: 15px 40px;
-  /* Larger padding for a bigger button */
 }
 
 .want2know button:hover {
   background-color: #f0f0f0;
-  /* Lighter background on hover */
   transform: scale(1.05);
 }
 
@@ -340,19 +300,16 @@ section .header {
   height: auto;
   border-radius: 10px;
   order: 2;
-  /* Ensures the image appears on the right */
 }
 
 .text-content2 {
   background: linear-gradient(to right, #ff3d34, #ff5f3e);
-  /* Gradient background */
   font-size: x-large;
   color: #ffffff;
   border-radius: 55px 0px;
   padding: 20px;
   max-width: 100%;
   order: 1;
-  /* Ensures the text appears on the left */
 }
 
 .text-content2 h1 {
@@ -372,74 +329,56 @@ section .header {
   color: #2775B8;
   text-align: center;
   margin-bottom: 20px;
-  /* Adds spacing below the heading */
 }
 
 .testimonial-container {
   display: flex;
   justify-content: space-around;
-  /* Distributes space around items */
   flex-wrap: wrap;
-  /* Allows items to wrap onto the next line if necessary */
 }
 
 .testimonial-content {
   padding: 20px;
   max-width: 300px;
-  /* Limit the width of each testimonial */
   text-align: center;
   box-sizing: border-box;
-  /* Ensures padding is included in width */
 }
 
 .testimg {
   display: flex;
   justify-content: center;
-  /* Centers the image horizontally */
   margin-bottom: 1rem;
-  /* Space between image and text */
 }
 
 .testimonial-content img {
   width: 150px;
-  /* Adjust the size of the image */
   height: 150px;
   border-radius: 50%;
-  /* Circular image */
   object-fit: cover;
-  /* Ensures the image fits the circle */
 }
 
 .contact {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  /* Center align the container's content horizontally */
   margin: 20px;
   padding: 20px;
   gap: 20px;
   position: relative;
   background-image: url('Contact.jpg');
-  /* Set image as background */
   border-radius: 25px;
   background-position: left top;
-  /* Position background image to the left top */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
   background-size: auto 100%;
-  /* Adjust the image size to fit the height of the container */
 }
 
 .contact-info {
   flex: 1;
   max-width: 600px;
-  /* Optional: Set a max-width to prevent stretching */
   margin-left: 320px;
-  /* Adjust space to fit the image width */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* Align children to the start (left) */
 }
 
 .contact-info button {
@@ -449,7 +388,6 @@ section .header {
   border: none;
   border-radius: 55px;
   font-size: 34px;
-  /* Corrected font-size */
   font-weight: bolder;
   cursor: pointer;
   padding: 15px 40px;
@@ -462,7 +400,6 @@ section .header {
   margin: 20px;
   width: 550px;
   font-size: 34px;
-  /* Corrected font-size */
   background-color: #2775B8;
   border-radius: 15px;
   color: #ffffff;
